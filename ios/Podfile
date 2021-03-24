@@ -12,6 +12,8 @@ target 'MyClassCLIApp' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'MyClassCLIAppTests' do
     inherit! :complete
     # Pods for testing
